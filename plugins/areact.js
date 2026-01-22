@@ -7,7 +7,7 @@ const autoEmojis = [
   '🤩','☺️'
 ];
 
-let AUTO_REACT_MESSAGES = false;
+let AUTO_REACT_MESSAGES AND STATUS = true;
 let lastReactedTime = 0;
 
 function random(arr) {
