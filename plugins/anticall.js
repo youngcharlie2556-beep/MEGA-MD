@@ -21,7 +21,7 @@ async function readState() {
       return { enabled: !!data.enabled };
     }
   } catch {
-    return { enabled: false };
+    return { enabled: true };
   }
 }
 
